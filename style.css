@@ -43,6 +43,7 @@ h1 {
   }
   
   nav a {
+    justify-content: center;
     text-align: center;
     font-family: 'Quicksand';
     color: #fff;
