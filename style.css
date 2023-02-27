@@ -1,68 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Quicksand:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Quicksand:wght@600&display=swap");
 /* Josefin Sans | Quicksand */
 
 * {
-    -webkit-user-select: none;  /* for Safari */
-    -moz-user-select: none;     /* for Firefox */
-    -ms-user-select: none;      /* for Internet Explorer */
-    user-select: none;          /* for modern browsers */
+  -webkit-user-select: none; /* for Safari */
+  -moz-user-select: none; /* for Firefox */
+  -ms-user-select: none; /* for Internet Explorer */
+  user-select: none; /* for modern browsers */
 
-    background-color: #1b2845;
-    display: grid;
+  background-color: #1b2845;
+  display: grid;
 }
 
 h1 {
-    font-family: 'Josefin Sans';
-    font-size: 90px;
-    text-align: center;
-    padding-top: 50px;
-    color: #5899e2;
-    transition: 0.5s;
-    line-height: 1rem;
-    margin: 0;
-    word-wrap: normal;
+  font-family: "Josefin Sans";
+  font-size: 90px;
+  text-align: center;
+  padding-top: 50px;
+  color: #5899e2;
+  transition: 0.5s;
+  line-height: 1rem;
+  margin: 0;
+  word-wrap: normal;
 }
 
 h1:hover {
-    padding-top: 48px;
-    color: #fff;
+  padding-top: 48px;
+  color: #fff;
 }
 
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
-    z-index: 100;
-  }
-  
-  .navbar ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .navbar li {
-    margin: 0 10px;
-  }
-  
-  .navbar a {
-    font-family: 'Quicksand';
-    display: block;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    color: #5899e2;
-    background-color: transparent;
-    transition: 0.3s;
-    border-radius: 5px;
-  }
-  
-  .navbar a:hover {
-    background-color: #274060;
-    color: #fff;
-  }
-  
-  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  z-index: 100;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  font-family: "Quicksand";
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #5899e2;
+  background-color: transparent;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background-color: #274060;
+  color: #fff;
+}
