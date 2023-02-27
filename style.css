@@ -3,7 +3,6 @@
 
 * {
     background-color: #1b2845;
-    display: grid;
 }
 
 h1 {
@@ -12,7 +11,7 @@ h1 {
     text-align: center;
     padding-top: 50px;
     color: #5899e2;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 h1:hover {
