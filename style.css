@@ -11,26 +11,11 @@
     display: grid;
 }
 
-content {
-  justify-content: center;
-  display: block;
-  position: fixed;
-  top: 0;
-}
-
-content stf {
-  margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
 h1 {
     font-family: 'Josefin Sans';
     font-size: 90px;
     text-align: center;
-    padding-top: 50px;
+    margin-top: 50px;
     color: #5899e2;
     transition: 0.5s;
     line-height: 1rem;
@@ -39,7 +24,7 @@ h1 {
 }
 
 h1:hover {
-    padding-top: 48px;
+    margin-top: 48px;
     color: #fff;
 }
 
