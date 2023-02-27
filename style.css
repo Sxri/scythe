@@ -14,11 +14,10 @@ h1 {
   font-family: "Josefin Sans";
   font-size: 90px;
   text-align: center;
-  padding-top: 15px;
   color: #5899e2;
   transition: 0.5s;
   line-height: 1rem;
-  margin: 0;
+  margin-top: 10rem;
   word-wrap: normal;
   padding-top: 5%;
 }
