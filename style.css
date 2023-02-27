@@ -2,7 +2,13 @@
 /* Josefin Sans | Quicksand */
 
 * {
+    -webkit-user-select: none;  /* for Safari */
+    -moz-user-select: none;     /* for Firefox */
+    -ms-user-select: none;      /* for Internet Explorer */
+    user-select: none;          /* for modern browsers */
+
     background-color: #1b2845;
+    display: grid;
 }
 
 h1 {
@@ -12,6 +18,9 @@ h1 {
     padding-top: 50px;
     color: #5899e2;
     transition: 0.5s;
+    line-height: 1rem;
+    margin: 0;
+    word-wrap: normal;
 }
 
 h1:hover {
