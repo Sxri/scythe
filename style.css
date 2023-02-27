@@ -39,11 +39,14 @@ h1 {
     text-align: center;
     text-decoration: none;
     color: #000000;
+    background-color: transparent;
     transition: 0.3s;
+    border-radius: 5px;
   }
   
   .navbar a:hover {
-    color: #1c1c1c;
+    background-color: rgb(18, 31, 32);
+    color: #fff;
   }
   
   
