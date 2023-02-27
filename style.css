@@ -11,6 +11,11 @@
     display: grid;
 }
 
+content {
+  justify-content: center;
+}
+
+
 h1 {
     font-family: 'Josefin Sans';
     font-size: 90px;
