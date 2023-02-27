@@ -20,11 +20,11 @@ h1 {
   line-height: 1rem;
   margin: 0;
   word-wrap: normal;
-  padding-top: 48%;
+  padding-top: 15%;
 }
 
 h1:hover {
-  padding-top: 38%;
+  padding-top: 10%;
   color: #fff;
 }
 
