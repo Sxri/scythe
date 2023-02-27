@@ -38,9 +38,12 @@ h1 {
     display: flex;
   }
   
-
+  nav li {
+    margin-left: 1rem;
+  }
   
   nav a {
+    align-items: center;
     justify-content: center;
     text-align: center;
     font-family: 'Quicksand';
