@@ -26,6 +26,7 @@ h1 {
 h1:hover {
   padding-top: 10%;
   color: #fff;
+  text-shadow: 0px 5px 11px #65Afff;
 }
 
 .navbar {
