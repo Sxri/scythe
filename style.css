@@ -13,6 +13,11 @@ h1 {
     color: #5899e2;
 }
 
+h1:hover {
+    text-shadow: 0px -1px 21px rgba(101,175,255,1);
+    color: #fff;
+}
+
 .navbar {
     position: fixed;
     top: 0;
