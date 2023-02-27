@@ -45,6 +45,8 @@ h1 {
   }
   
   nav a {
+    text-align: center;
+    font-family: 'Quicksand';
     color: #fff;
     text-decoration: none;
     font-weight: bold;
