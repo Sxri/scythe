@@ -97,3 +97,10 @@ h1:hover {
     height: 100%;
     object-fit: cover;
   }
+
+    
+  .card title {
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+  }
