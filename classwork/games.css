@@ -120,5 +120,6 @@ h2:hover {
   .card title {
     font-size: 14px;
     text-align: center;
+    z-index: 999;
     margin: auto;
   }
